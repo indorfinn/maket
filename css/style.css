@@ -1,4 +1,4 @@
-body{font-family: Arial, Helvetica, sans-serif}
+﻿body{font-family: Arial, Helvetica, sans-serif}
 html,
 body {height: 100%;}
 .container{width:1280px;
@@ -86,7 +86,7 @@ p,.basis-dignity-block-last{color:  #333333;
    min-height:260px;
    clear:both;}
 .basis-dignity-right-block{
-   margin-left:681px;
+   float:right;
    width:526px;
    min-height:260px;
    outline: none;}
