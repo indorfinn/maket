@@ -1,16 +1,13 @@
 body{font-family: Arial, Helvetica, sans-serif}
 html,
-body {
-    height: 100%;
-}
+body {height: 100%;}
 .container{width:1280px;
     min-width:360px;
     margin: 0 auto;
     min-height: 100%;}
 .beginning{width:100%;
-    height:323px;
-    background-color:#445162;
-    min-height: auto;}
+    min-height:323px;
+    background-color:#445162;}
 .beginning-menu{max-width: 520px;
    min-width:494px;
    max-height: 100%;
@@ -18,8 +15,7 @@ body {
    margin-top: 50px;
    margin-left: 50px;}
 .beginning-menu-name{
-    width: 367px;
-    height:44px;
+    min-width: 367px;
     padding-top:50px;
     font-family: Arial;
     color:  #ffffff;
@@ -27,12 +23,10 @@ body {
     font-weight: 400;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);}
-.beginning-menu-list{margin-top: 51px;
-    margin-left:-8px;
+.beginning-menu-list{margin-left:-8px;
     width:422px;
     min-height:127px;}
-.beginning-menu-one{
-      color: #ffffff;
+.beginning-menu-one{color: #ffffff;
       font-size:20px;
       font-weight:400;
       line-height:36px;
@@ -40,10 +34,9 @@ body {
       text-shadow:0px 1px 0px rgba(0, 0, 0, 0.3);
       list-style-type:none;
       list-style-image:url('../img/checkicon.png');}
-.beginning-menu-picture{
-      float: left;
+.beginning-menu-picture{float: right;
       margin-top:-269px;
-      margin-left:761px}
+      margin-right:50px}
       /* main*/
 .basis{width:100%;
       min-height:2328px;
@@ -56,22 +49,21 @@ h3{color: #445161;
    font-size: 30px;
    font-weight: 400;
    line-height: 36px;
-      text-align: left;}
-.basis-product-name{
-         padding-top:49px;
-         margin-left:50px;
-         width: 254px;
-         height: 28px;}
+   text-align: left;}
+.basis-product-name{padding-top:49px;
+   margin-left:50px;
+   margin-bottom: 30px;
+   width: 254px;
+   height: 28px;}
 .basis-product-text{margin-left:50px;
-         width:653px;
-         height:60px;}
+   width:653px;
+   height:60px;}
 p,.basis-dignity-block-last{color:  #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;}
-.basis-product-block p+p{
-      padding-top:20px;}
+.basis-product-block p+p{padding-top:20px;}
 .basis-product-visual {margin-left:800px;
    margin-top:-230px;}
    /* 3 блок */
@@ -84,17 +76,17 @@ p,.basis-dignity-block-last{color:  #333333;
       width: 100%;
       clear: both;}
 .basis-dignity-name{padding-top:50px;
-      width: 100%;
+  width: 100%;
   height: 28px;
-  text-align: center;
-margin-bottom:0px;}
+  text-align:center;
+  margin-bottom:0px;}
 .basis-dignity-left-block{float: left;
    margin-left:91px;
    width:526px;
    min-height:260px;
    clear:both;}
 .basis-dignity-right-block{
-      margin-left:681px;
+   margin-left:681px;
    width:526px;
    min-height:260px;
    outline: none;}
