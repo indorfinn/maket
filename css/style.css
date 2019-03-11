@@ -85,8 +85,8 @@ p,.basis-dignity-block-last{color:  #333333;
    width:526px;
    min-height:260px;
    clear:both;}
-.basis-dignity-right-block{
-   float:right;
+.basis-dignity-right-block{float:right;
+   margin-right: 50px;
    width:526px;
    min-height:260px;
    outline: none;}
@@ -104,17 +104,7 @@ p,.basis-dignity-block-last{color:  #333333;
     position: relative;
     top:38px;
     left:-40px;}
-    /*  еще один вариант отображения иконки + */
-    /*.basis-dignity-block-last:before{ background: #445161; 
-      content: "+"; 
-      color: #fff; 
-      float: left; 
-      font-size: 1.5em; 
-      font-weight: bold; 
-      margin: -5px 10px 0 0; 
-      padding: 0; 
-      text-align: center; 
-      width: 20px;}*/
+   
 
 
 
