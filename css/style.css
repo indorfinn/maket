@@ -90,7 +90,8 @@ p,.basis-dignity-block-last{color:  #333333;
    width:526px;
    min-height:260px;
    outline: none;}
-.basis-dignity-block-last{outline: none;}
+.basis-dignity-block-last{display: block;
+    outline: none;}
 .basis-dignity-block-last::-webkit-details-marker{display:none;}
 .basis-dignity-block-last:before {display: block;
     background-color:  #445161;
