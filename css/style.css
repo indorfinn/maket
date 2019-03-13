@@ -50,19 +50,21 @@ h3{color: #445161;
    font-weight: 400;
    line-height: 36px;
    text-align: left;}
-.basis-product-name{padding-top:49px;
+.basis-product-name{display: inline-block;
+   padding-top:49px;
    margin-left:50px;
    margin-bottom: 30px;
-   width: 254px;
+   width: 600px;
    height: 28px;}
-.basis-product-text{margin-left:50px;
-   width:653px;
-   height:60px;}
+
 p,.basis-dignity-block-last{color:  #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;}
+  .basis-product-text{margin-left:50px;
+   width:653px;
+   height:60px;}
 .basis-product-block p+p{padding-top:20px;}
 .basis-product-visual {margin-left:800px;
    margin-top:-230px;}
@@ -85,13 +87,13 @@ p,.basis-dignity-block-last{color:  #333333;
    width:526px;
    min-height:260px;
    clear:both;}
-.basis-dignity-right-block{float:right;
+.basis-dignity-right-block{float: right;
    margin-right: 50px;
    width:526px;
    min-height:260px;
    outline: none;}
 .basis-dignity-block-last{display: block;
-    outline: none;}
+ outline: none;}
 .basis-dignity-block-last::-webkit-details-marker{display:none;}
 .basis-dignity-block-last:before {display: block;
     background-color:  #445161;
@@ -105,7 +107,7 @@ p,.basis-dignity-block-last{color:  #333333;
     position: relative;
     top:38px;
     left:-40px;}
-   
+  
 
 
 
