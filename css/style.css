@@ -174,3 +174,193 @@ margin: 0 0 15px 15px;}
    text-align: left;
    display: block;
 margin: 20px 0 16px 27px;}
+/* 6 блок */
+.pryce{width: 100%;
+min-height: 656px;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: wrap; }
+.pryce-name{font-family: Arial;
+   color:  #445161;
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 36px;
+   text-align: center;
+   width: 100%;}
+   .pryce-block{width: 300px;
+   min-height: 306px;
+   background-color: #425062;
+   border-color: #425062;
+   border-radius: 5px;
+   border-width: 2px;
+   border-style: solid;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+margin-bottom: 50px;}
+.pryce-block:nth-child(2){margin-left: 141px;}
+.pryce-block:nth-child(4){margin-right: 141px;}
+.pryce-block-title{display: block;
+   width:300px;
+   min-height:51px;
+   font-family: Arial;
+   color:  #ffffff;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 30px;
+   text-align: center;
+background-color: #425062;
+margin-top:0;
+padding-top: 21px;
+box-sizing: border-box;
+margin-bottom: 29px;}
+.pryce-block-price{color:  #445162;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 30px;
+   text-align: center;
+   min-height: 70px;
+   width: 100%;
+   background-color: #fff;
+   padding-top: 20px;
+   box-sizing: border-box;}
+.pryce-block-list{color:  #ffffff;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+   background-color: #425062;
+   margin: 1px;}
+.pryce-block-key{border-radius: 5px;
+   background-color:  #ffffff;
+   width: 260px;
+   height: 40px;
+   color:  #445161;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 18px;
+   text-align: left;
+   margin: 20px;
+   padding-left:111px;
+   padding-top: 14px;
+   box-sizing: border-box;
+text-decoration: none;}
+   .pryce-block-key:hover{background-color:  #989898;}
+   .pryce-block-key:active{background-color: #333333;
+   color:#fff;}
+   button, input, textarea, form{
+      outline: none;}
+   /* 6 блок */
+   .contacts{width: 100%;
+   min-height: 509px;
+background-color: #445162;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.contacts-name{color:#fff;
+text-align: center;
+padding-top: 53px;
+box-sizing: border-box;
+margin-bottom: 31px;
+width: 100%;}
+.contacts-list{display: flex;
+   flex-direction: column;
+width: 500px;
+margin-left:249px;}
+.contacts-list-text, .contacts-list-email, .contacts-list-textarea{border-radius: 5px;
+   background-color:  #ffffff;
+   width: 500px;
+   min-height: 40px;
+padding: 0 0 0 5px;
+border: none;}
+   .contacts-list-email, .contacts-list-textarea, .contacts-list-button{margin-top: 21px;}
+   .contacts-list-text{text-transform: capitalize;}
+   .contacts-list-text::-webkit-input-placeholder {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+padding: 0 0 0 5px;}
+.contacts-list-text::-moz-placeholder          {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}/* Firefox 19+ */
+.contacts-list-text:-moz-placeholder           {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}/* Firefox 18- */
+.contacts-list-text:-ms-input-placeholder      {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}
+   .contacts-list-email::-webkit-input-placeholder {color:  #445162;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+   padding: 0 0 0 5px;}
+.contacts-list-email::-moz-placeholder          {color:  #445162;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;}/* Firefox 19+ */
+.contacts-list-email:-moz-placeholder           {color:  #445162;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;}/* Firefox 18- */
+.contacts-list-email:-ms-input-placeholder      {color:  #445162;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;}
+.contacts-list-textarea::-webkit-input-placeholder {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+   padding: 0 0 0 5px;}
+.contacts-list-textarea::-moz-placeholder          {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}/* Firefox 19+ */
+.contacts-list-textarea:-moz-placeholder           {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}/* Firefox 18- */
+.contacts-list-textarea:-ms-input-placeholder      {color:  #445162;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;}
+.contacts-list-button{border-radius: 5px;
+   background-color:  #ffffff;
+   width: 140px;
+   height: 40px;
+   border: none;
+   margin-left: 33.5%;
+   color:  #445162;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   text-align: center;
+   text-transform: uppercase;
+margin-bottom: 50px;}
+   .contacts-end{width: 100%;
+      font-family: Arial;
+color:  #445162;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0.3px;
+line-height: 24px;
+text-align: center;
+background-color: #f5f5f5;
+min-height:20px; }
+
