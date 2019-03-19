@@ -224,6 +224,7 @@ p,.basis-dignity-block-last {color: #333333;
     background-color: #fff;
     padding-top: 20px;
     box-sizing: border-box;}
+.pryce-block-item{list-style-position: inside;}
 .pryce-block-list {color: #ffffff;
     font-size: 14px;
     font-weight: 400;
